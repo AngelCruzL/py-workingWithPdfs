@@ -11,3 +11,4 @@ pip install -r ./requirements.txt
 ## Scripts
 
 1. [Creating a PDF](scripts/01-creating_a_pdf.py): This script creates a PDF with an image and some provided text.
+2. [Creating a PDF from Excel file](scripts/02-generating_a_pdf_from_spreadsheets.py): This script creates a PDF file from every column of an Excel file with the data provided.
