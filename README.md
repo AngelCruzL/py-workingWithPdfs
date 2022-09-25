@@ -10,4 +10,4 @@ pip install -r ./requirements.txt
 
 ## Scripts
 
-1. [Creating a PDF](01-creating_a_pdf.py): This script creates a PDF with an image and some provided text.
+1. [Creating a PDF](scripts/01-creating_a_pdf.py): This script creates a PDF with an image and some provided text.

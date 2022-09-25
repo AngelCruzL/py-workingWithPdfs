@@ -1,4 +1,8 @@
+import os
+
 from fpdf import FPDF
+
+OUTPUT_DIR = 'pdfs'
 
 pdf = FPDF(orientation='P', unit='pt', format='A4')
 pdf.add_page()
@@ -29,5 +33,7 @@ pdf.cell(w=100, h=25, txt='Phylum:')
 pdf.set_font(family='Times', size=14)
 pdf.cell(w=100, h=25, txt='Chordata', ln=1)
 
+if (not os.path.exists(OUTPUT_DIR)):
+    os.mkdir(OUTPUT_DIR)
 
-pdf.output('output.pdf')
+pdf.output('pdfs/tiger.pdf')
