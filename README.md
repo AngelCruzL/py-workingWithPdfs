@@ -14,3 +14,4 @@ pip install -r ./requirements.txt
 2. [Creating a PDF from Excel file](scripts/02-generating_a_pdf_from_spreadsheets.py): This script creates a PDF file from every column of an Excel file with the data provided.
 3. [Extracting text from PDF](scripts/03-extracting_text_from_pdf.py): This script extracts the text from a PDF file and displays it in the console.
 4. [Extracting tables from PDF](scripts/04-extracting_tables.py): This script extracts the tables from a PDF file and saves it on a CSV file.
+5. [Extract tables from PDF and saves it on Excel file](scripts/05-extract_table_to_excel.py): This script extracts the table from a PDF file witch also includes text, after that saves the table on an Excel file.
